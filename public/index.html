@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"
+        integrity="sha512-0zGLOFv/+OQ6YfVCSGDQWhrDRx0ONmBqWvs3gI4olm8i6xtKoG1FhEnB4eTaWCVnojyfUDgE8Izeln+mAJAkFA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>The Weather Here</title>
+</head>
+
+<body>
+
+    <h1>The Weather Here</h1>
+    <div><a href="/">check in</a> | <a href="/checkins/">view checkins</a></div>
+
+    <p><span id="latitude"></span>&deg;,<span id="longitude"></span>&deg;</p>
+    <!-- <button type="button" id="submit">check in</button> -->
+
+    <p>
+        Meteo: <span id="summary"></span><br>
+        Temp: <span id="temp"></span>&deg;C<br>
+        Wind: <span id="wind"></span> Kmh<br>
+        Pressure: <span id="pressure"></span> millibar<br>
+        Air Quality (PM10): <span id="pm10"></span> µg/m³<br>
+    </p>
+
+
+    <script src="sketch.js"></script>
+
+</body>
+
+</html>
